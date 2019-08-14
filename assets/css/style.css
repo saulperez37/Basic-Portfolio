@@ -1,21 +1,39 @@
-
+body {
+    background-image: url(../images/papyrus.png);
+}
 
 .wrapper {
     width: 960px;
-    margin: 0 auto 0 auto;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 0 200px;
 }
 
+header {
+    position: static;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 75px;
+    background: #ffffff;
+    margin: 0;   
+}
+
+.divider {
+    display: block;
+    width: 900px;
+    height: 10px;
+    color: #ffffff28;
+}
 .content {
     background-color: #ffffff28;
-    width: 100%;
+    width: 960px
 }
 
 #name {
     background-color: #4aaaa5;
     float: left;
     width: 250px;
-    padding: 20px;
+    height: 75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     color: #ffffff;
@@ -30,5 +48,9 @@ h2 {
     clear: both;
     overflow: auto;
 
+}
+
+#image {
+    float: left;
 }
 
